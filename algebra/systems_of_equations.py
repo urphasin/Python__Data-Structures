@@ -37,9 +37,15 @@ def solveByCramersRule(equation: list[list]):
 
 
 if __name__ == "__main__":
-    equation = [
+    equation = "" \
+    "3x - 2y = 7\n" \
+    "5x + 4y = -1"
+    print(equation, end="\n\n")
+
+
+    equationMatrix = [
         [3, -2, 7],
         [5, 4, -1]
     ]
-    print(solveByCramersRule(equation=equation))
+    print(solveByCramersRule(equation=equationMatrix))
     
