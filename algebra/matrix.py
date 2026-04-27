@@ -11,6 +11,7 @@ def printMatrix(matrix, m, n):
 
 m = 7
 n = 20
+
 matrix = [[random.randint(0, 1) for _ in range(n)] for _ in range(m)]
 
 printMatrix(matrix=matrix, m=m, n=n)
