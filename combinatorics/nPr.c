@@ -13,3 +13,12 @@ long long nPr(int n, int r) {
 
     return result;
 }
+
+int main() {
+
+    int n = 10, r = 3;
+    printf("nPr = %lld\n", nPr(n, r));
+    
+    
+    return 0;
+}
