@@ -1,0 +1,19 @@
+s = "banana"
+
+Suffixes:
+0 → banana
+1 → anana
+2 → nana
+3 → ana
+4 → na
+5 → a
+
+Sorted suffixes:
+5 → a
+3 → ana
+1 → anana
+0 → banana
+4 → na
+2 → nana
+
+Suffix array = [5, 3, 1, 0, 4, 2]
