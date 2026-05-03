@@ -5,7 +5,7 @@ def printMatrix(matrix, m, n):
     for i in range(m):
         for j in range(n):
             print(matrix[i][j], end="\t")
-        print()
+        print(end="\n\n")
 
 m = 7
 n = 12
